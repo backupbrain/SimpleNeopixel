@@ -15,7 +15,7 @@ By combining both methods, it acts as a drop-in replacement for most Adafruit_Ne
 After downloading, rename folder to 'SimpleNeopixel' and install in Arduino Libraries folder. Restart Arduino IDE, then open File->Sketchbook->Library->Adafruit_NeoPixel->strandtest sketch.
 
 
-[afafruit_neopixel]: https://github.com/adafruit/Adafruit_NeoPixel
+[adafruit_neopixel]: https://github.com/adafruit/Adafruit_NeoPixel
 [josh_neopixel]: http://wp.josh.com/2014/05/13/ws2812-neopixels-are-not-so-finicky-once-you-get-to-know-them/
 [trinket]: http://adafruit.com/product/1501
 [flora]:  http://adafruit.com/products/1060
