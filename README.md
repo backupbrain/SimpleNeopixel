@@ -10,7 +10,7 @@ Josh.com's method doesn't store data about the pixels.  It simply streams the pi
 
 Josh.com's method unfortunately has relatively tight timing requirements, so it requires that color calculatins are done within the pixel timing window.  This is a tight requirement on the Adafruit Trinket, which can do basic arithmatic within this window.  On faster processors such as the Uno or on the Mega, more complex calculations can be made within this time window.
 
-By combining both methods, it acts as a drop-in replacement for most Adafruit_Neopixel users while enabling them to power thousands of WS2812 Neopixels on any Arduino-compatible device, even ones with extremely low memory such as the [Adafruit Trinket][trinket]
+By combining both methods, it acts as a near drop-in replacement for most Adafruit_Neopixel users while enabling them to power thousands of WS2812 Neopixels on any Arduino-compatible device, even ones with extremely low memory such as the [Adafruit Trinket][trinket]
 
 After downloading, rename folder to 'SimpleNeopixel' and install in Arduino Libraries folder. Restart Arduino IDE, then open File->Sketchbook->Library->Adafruit_NeoPixel->strandtest sketch.
 
